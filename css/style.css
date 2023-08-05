@@ -1,0 +1,43 @@
+:root {
+    --bs-green-bg: hsl(154, 59%, 51%);
+    --bs-red-bg: hsl(0, 100%, 74%) ;                                       
+    --bs-blue-bg: hsl(248, 32%, 49%);
+    --bs-darkblue: hsl(249, 10%, 26%);
+    --bs-grayishbue: hsl(246, 25%, 77%);
+    --bs-white: rgb(255, 255, 255);
+
+}
+
+.mainPage{
+    background-image: url('../images/bg-intro-desktop.png');
+    background-color: var(--bs-red-bg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+#btn-submit {
+    background-color: var(--bs-green-bg);
+    color: var(--bs-white);
+}
+
+#first-card {
+    background-color: var(--bs-blue-bg);
+    color: var(--bs-white);
+}
+
+input {
+    border: 2px solid var(--bs-darkblue);
+}
+
+p a{
+    color: var(--bs-red-bg);
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+
+    .mainPage{  
+        height: 100%;
+    }
+}

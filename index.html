@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+  </head>
+  <body>
+
+    <main class="container-fluid mainPage border" >
+        <section class="container my-5 py-5">
+          <div class="row">
+            <div class="col-sm-6 text-white d-flex flex-column justify-content-center align-items-start">
+              <h1 class="fw-bold">Learn to code by watching others</h1>
+              <p> See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+                but understanding how developers think is invaluable. </p>
+            </div>
+            <div class="col-sm-6">
+              <div class="card shadow" id="first-card">
+                <p class="text-center py-2"> <strong>Try it free 7 days </strong> then $20/mo. thereafter</p>
+              </div>
+              <div class="card shadow my-4 card-form">
+                <form class="mx-4 my-5" id="submitForm">
+                  <div class="mb-3">
+                    <input type="text" class="form-control py-3" id="fname" placeholder="First Name">
+                    <div id="error_fname"></div>
+                  </div>
+                  <div class="mb-3">
+                    <input type="text" class="form-control py-3" id="lname" placeholder="Last Name">
+                    <div id="error_lname"></div>
+                  </div>
+                  <div class="mb-3">
+                    <input type="text" class="form-control py-3" id="email" placeholder="Email Address">
+                    <div id="error_email"></div>
+                  </div>
+                  <div class="mb-3">
+                    <input type="password" class="form-control py-3" id="password" placeholder="Password">
+                    <div id="error_password"></div>
+                  </div>
+                  
+                  <button type="submit" class="btn w-100 py-3 text-uppercase" id="btn-submit">Claim your free trial </button>
+                  <p class="my-3" style="color: hsl(246, 25%, 77%);"> By clicking the button, you are agreeing to our <a href="#">Terms and Services</a></p>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+    </main>
+  
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
